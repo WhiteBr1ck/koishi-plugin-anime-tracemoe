@@ -1,22 +1,38 @@
 {
   "name": "koishi-plugin-anime-tracemoe",
-  "description": "trace.moe",
+  "description": "一款 Koishi 插件，可以调用 trace.moe api 识别图片搜索番剧 ",
   "version": "0.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
-    "lib",
-    "dist"
+    "lib"
   ],
+  "author": "whitebr1ck",
   "license": "MIT",
-  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhiteBr1ck/koishi-plugin-anime-tracemoe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WhiteBr1ck/koishi-plugin-anime-tracemoe/issues"
+  },
+  "homepage": "https://github.com/WhiteBr1ck/koishi-plugin-anime-tracemoe#readme",
   "keywords": [
-    "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "anime",
+    "trace.moe",
+    "以图识番",
+    "anime-search"
   ],
-  "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.18.7"
+  },
+  "koishi": {
+    "service": {
+      "required": [
+        "http"
+      ]
+    }
   }
 }
