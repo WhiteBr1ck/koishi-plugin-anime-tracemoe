@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-anime-tracemoe",
   "description": "一款 Koishi 插件，可以调用 trace.moe api 识别图片搜索番剧 ",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [

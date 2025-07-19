@@ -11,7 +11,7 @@ export interface Config {
   apiKey: string; cutBorders: boolean; minSimilarity: number; showRomanjiTitle: boolean; useForward: boolean; logDetails: boolean; sendCoverImage: boolean; sendScenePreview: boolean;
 }
 export const Config: Schema<Config> = Schema.object({
-  apiKey: Schema.string().description('你的 trace.moe API 密钥，用于提高搜索速率限制。'),
+  apiKey: Schema.string().description('（可选，留空则使用默认的 trace.moe API）你的 trace.moe API 密钥，用于提高搜索速率限制。'),
   minSimilarity: Schema.number().min(0).max(100).default(87).description('最低相似度 (0-100)。'),
   cutBorders: Schema.boolean().default(true).description('是否自动裁剪视频黑边。'),
   showRomanjiTitle: Schema.boolean().default(true).description('是否在原生标题旁显示罗马音标题。'),

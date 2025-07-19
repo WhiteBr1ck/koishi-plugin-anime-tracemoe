@@ -32,7 +32,7 @@
 
 | 配置项 | 描述 | 默认值 |
 | :--- | :--- | :--- |
-| `apiKey` | 你的 trace.moe API 密钥，用于提高搜索速率限制。 | `(空)` |
+| `apiKey` | （可选，留空则使用默认的 trace.moe API）你的 trace.moe API 密钥，用于提高搜索速率限制。 | `(空)` |
 | `minSimilarity` | 最低相似度 (0-100)。只有高于此值的匹配结果才会被显示。 | `87` |
 | `cutBorders` | 是否自动裁剪视频黑边，可以提高大多数情况下的识别精度。 | `true` |
 | `showRomanjiTitle` | 是否在原生标题旁显示罗马音标题。 | `true` |
